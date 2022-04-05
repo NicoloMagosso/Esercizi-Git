@@ -7,20 +7,8 @@
     for(int i=0; i<=10;i++)
     {
         printf("\nInserisci un numero: ");
-        array[i] = scanf();
+        scanf("%d", &array[i]);
     }
-        for (int a = 0; a <= 10; a++)
-        {
-            for (int i = a + 1; i <=10; i++)
-            {
-                if (array[i]%2==0)
-                {
-                    num = array[a];
-                    array[a] = array[i];
-                    array[i] = num;
-                }
-            }
-            printf("Vettore ordinato: " + array[a]);
-        }
+    for(int i=0; i<=)
     return 0;
  }
